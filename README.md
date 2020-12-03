@@ -1,8 +1,8 @@
 # Team Name: Bla Bla
 Members: 
-|![Marie-Estelle GOUNALANE](assets/member1.webp?raw=true) |![member2](assets/member2.webp?raw=true)  |
+|![member1](assets/member1.webp?raw=true) |![member2](assets/member2.webp?raw=true)  |
 |--|--|
-|  [Indrajit RAJASOORIAR](https://github.com/username) <br> a short description of her responsiblity ...| [Member 2 ](https://github.com/username) <br> a short description of his responsiblity ... |
+|  [Marie-Estelle GOUNALANE](https://github.com/username) <br> a short description of her responsiblity ...| [Indrajit RAJASOORIAR](https://github.com/username) <br> a short description of his responsiblity ... |
 
 
 
