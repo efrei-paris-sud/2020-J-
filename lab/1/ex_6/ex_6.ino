@@ -1,0 +1,12 @@
+const int buzzer = 6;
+
+void setup(){
+  pinMode(buzzer, OUTPUT); // Set buzzer - pin 9 as an output
+}
+void loop(){
+  tone(9,200,2000); //Send 1Khz sound signal 
+  delay(1000); // for 1 sec
+  noTone(buzzer); //Stop sound ...
+  delay(1000); // for 1 sec
+  
+}
