@@ -1,6 +1,6 @@
 # Team Name: TEAM GO
 Members: 
-|![member1](assets/Estelle.jpg?raw=true) |![member2](assets/Indrajit.jpg?raw=true)  |
+|![member1](assets/member1.webp?raw=true) |![member2](assets/member1.webp?raw=true)  |
 |--|--|
 |  [Marie-Estelle GOUNALANE](https://github.com/username) <br> a short description of her responsiblity ...| [Indrajit RAJASOORIAR](https://github.com/username) <br> a short description of his responsiblity ... |
 
