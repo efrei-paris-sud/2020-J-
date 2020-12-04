@@ -11,6 +11,9 @@ like LED, Buzzer, Potentiometer and so on.
   - [Exercise 5](ex_5)
   - [Exercise 6](ex_6)
   - [Exercise 7](ex_7)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 689507b3b9cd8e184ecb25b87828bcbfe0413522
   
