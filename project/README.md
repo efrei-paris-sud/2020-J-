@@ -1,35 +1,20 @@
 
 # Project Title: Monitoring heartbeat and saturation level
-Please use a gif format for the cover photo like this: (you can create gif using https://ezgif.com/maker)
 ![Cover GIF](doc/heartbeat.gif?raw=true)
 
-**Description:**  Please don't forget to describe all parts of your project including 
- - [x] **reading from sensors** 
- - [x] **processing raw data**
- - [x] **Information Transmission**
- - [x] **IoT Platform**
- - [x] **Doing an action**
+# Description
+
+We wanted to create a real time heartbeat and saturation measurement device. It will show the user’s heartbeat, the saturation rate furthermore, he will be notified if these measures are abnormal. To use this device, he has to put his finger on the sensor, it will scan his heartbeat and saturation level in the platform. The monitor has also 2 LED which will light if the level of the heart rate or the saturation level is abnormal.
  
- We wanted to create a real time heartbeat and saturation measurement device. It will show the user’s heartbeat, the saturation rate furthermore, he will be notified if these measures are abnormal. To use this device, he has to put his finger on the sensor, it will scan his heartbeat and saturation level in the platform. The monitor has also 2 LED which will light if the level of the heart rate or the saturation level is abnormal.
+Here is a use case diagram of the functionality of our project:
+
+![UML](doc/heartbeat.gif?raw=true)
  
  To use this prototype the user should first scan his finger so the device can get his rate heartrate and saturation level. Once the user scanned his finger, he should be able to know his heartbeat and his saturation level. Beside in the case when the heartbeat or saturation level are higher or lower than the normal
 recommended, the user will be notified. He should be able to see all these data in web platform.
 
-To build this project we used two software, which are:
-➢ Arduino IDE : It is a platform to written and compile Arduino sketch that is similar to C and C++. It is used to upload code into a Arduino card.
-➢ Node Red : It is a flow-based software used in IOT to connect hardware to an API.
-With the help of Arduino IDE, we write a program to measure our heartbeat and saturation level and monitor it though a serial monitor. We then used Node Red to display the output in the web platform.
-Node-RED is a flow-based development tool for visual programming developed by IBM. It’s used in IoT to connect a hardware to an API. Hence, we produced a dashboard for our Heartbeat and Saturation level.
-
-[Team Report](doc/Rapport Projet Final IOT.pdf) 
-
-[Team Presentation](doc/Health care.pdf)
-
-# Working Video
-
- https://youtu.be/0G3bv7ShKwM
-
 # Components
+
 - Arduino UNO
 - Max 30100
 - 1 Blue LED
@@ -39,11 +24,32 @@ Node-RED is a flow-based development tool for visual programming developed by IB
 - 1 Breadboard
 - 1 Cable USB UNO R3
 
+# Software side
+
+To build this project we used two software, which are:
+➢ Arduino IDE : It is a platform to written and compile Arduino sketch that is similar to C and C++. It is used to upload code into a Arduino card.
+➢ Node Red : It is a flow-based software used in IOT to connect hardware to an API.
+With the help of Arduino IDE, we write a program to measure our heartbeat and saturation level and monitor it though a serial monitor. We then used Node Red to display the output in the web platform.
+Node-RED is a flow-based development tool for visual programming developed by IBM. It’s used in IoT to connect a hardware to an API. Hence, we produced a dashboard for our Heartbeat and Saturation level application
+
+# Working Video
+
+ https://youtu.be/0G3bv7ShKwM
+
 # Schematic
 ![schema](doc/photo.png?raw=true)
 
+# Documents
+[Team Report](doc/Rapport Projet Final IOT.pdf) 
+
+[Team Presentation](doc/Health care.pdf)
+
 # Overview on the code
 Please provide a high level algorithm of your code. if you need to mention some part of the code you can do it like:
+```Arduino
+		Serial.println("Beat!"); // This line is used to print if a beat is detected
+``` 
+
 ```Arduino
 		Serial.println("Beat!"); // This line is used to print if a beat is detected
 ``` 
@@ -61,9 +67,6 @@ Please provide a high level algorithm of your code. if you need to mention some 
         Serial.println("SUCCESS");
     }
 ``` 
+# Conclusion
 
-```Arduino
-	if (pox.getHeartRate() > 110){
-          digitalWrite(redPin, HIGH);         // These lines are used to turn on the LED and display and notify the user that his heartbeat is high
-          Serial.print(" Heartbeat is too high! ");
-```
+This is a basic program with an interface to show to the user his heartbeat and saturation level and if it’s abnormal. However, we can make it more precise by adding some more information concerning the user’s information like his age, his weight etc.. to increase the precision level of the results. Also, if it’s possible by its budget we can use a cloud platform to run this application.
