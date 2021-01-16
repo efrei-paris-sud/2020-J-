@@ -21,7 +21,7 @@ To build this project we used two software, which are:
 With the help of Arduino IDE, we write a program to measure our heartbeat and saturation level and monitor it though a serial monitor. We then used Node Red to display the output in the web platform.
 Node-RED is a flow-based development tool for visual programming developed by IBM. It’s used in IoT to connect a hardware to an API. Hence, we produced a dashboard for our Heartbeat and Saturation level.
 
-[Team Report](doc/Rapport Projet Final IOT.pdf) 
+[Team Report](doc/Rapport Projet Final IOT.pdf?raw=true) 
 
 [Team Presentation](doc/Health care.pdf)
 
