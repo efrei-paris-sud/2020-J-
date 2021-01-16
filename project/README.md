@@ -49,7 +49,9 @@ Please provide a high level algorithm of your code. if you need to mention some 
 ``` 
 
 ```Arduino
-		Serial.println("Beat!"); // This line is used to print if a beat is detected
+		if (pox.getHeartRate() > 110){
+          digitalWrite(redPin, HIGH);
+          Serial.print(" Heartbeat is too high! ");
 ``` 
 ```Arduino
 		
@@ -65,3 +67,9 @@ Please provide a high level algorithm of your code. if you need to mention some 
         Serial.println("SUCCESS");
     }
 ``` 
+
+```Arduino
+	if (pox.getHeartRate() > 110){
+          digitalWrite(redPin, HIGH);         // These lines are used to turn on the LED and display and notify the user that his heartbeat is high
+          Serial.print(" Heartbeat is too high! ");
+```
