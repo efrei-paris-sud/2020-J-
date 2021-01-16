@@ -11,10 +11,7 @@ Members:
 
 [Click here for more information about the project](project) 
 
-Example Video of the project:
-
-https://youtu.be/0G3bv7ShKwM
-
+ **Video of the project**: https://youtu.be/0G3bv7ShKwM
 
 # Lab Reports
 
