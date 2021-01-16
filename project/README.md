@@ -1,5 +1,5 @@
 
-# Project Title: Monitoring heartbeat ans saturation level
+# Project Title: Monitoring heartbeat and saturation level
 Please use a gif format for the cover photo like this: (you can create gif using https://ezgif.com/maker)
 ![Cover GIF](doc/heartbeat.gif?raw=true)
 
