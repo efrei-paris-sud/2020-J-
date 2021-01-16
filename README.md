@@ -2,16 +2,16 @@
 Members: 
 |![member1](assets/member1.webp?raw=true) |![member2](assets/member2.webp?raw=true)  |
 |--|--|
-|  [Marie-Estelle GOUNALANE](https://github.com/username) <br> a short description of her responsiblity ...| [Indrajit RAJASOORIAR](https://github.com/username) <br> a short description of his responsiblity ... |
+|  [Marie-Estelle GOUNALANE](https://github.com/Nixia21 ) <br> Digital Transformation & Cloud Services <br> Founder Team GO| [Indrajit RAJASOORIAR](https://github.com/Indrajit0504) <br> Digital Transformation & Cloud Services <br> Co-Founder Team GO ... |
 
 
 
 # Project Title: Monitoring heartbeat and satuaration level
- **Description**: The aim of this project is to monitor the heart rate. If the heart rate is higher than usual the user will get a notification.
+ **Description**: We wanted to create a real time heartbeat and saturation measurement device. It will show the user’s heartbeat, the saturation rate furthermore, he will be notified if these measures are abnormal. To use this device, he has to put his finger on the sensor, it will scan his heartbeat and saturation level in the platform. The monitor has also 2 LED which will light if the level of the heart rate or the saturation level is abnormal.
  
 [Click here for more information about the project](project) 
 
-Example Video of the porject:
+Example Video of the project:
 
 https://youtu.be/0G3bv7ShKwM
 
