@@ -9,23 +9,36 @@ Please use a gif format for the cover photo like this: (you can create gif using
  - [x] **Information Transmission**
  - [x] **IoT Platform**
  - [x] **Doing an action**
+ 
+ We wanted to create a real time heartbeat and saturation measurement device. It will show the user’s heartbeat, the saturation rate furthermore, he will be notified if these measures are abnormal. To use this device, he has to put his finger on the sensor, it will scan his heartbeat and saturation level in the platform. The monitor has also 2 LED which will light if the level of the heart rate or the saturation level is abnormal.
+ 
+ To use this prototype the user should first scan his finger so the device can get his rate heartrate and saturation level. Once the user scanned his finger, he should be able to know his heartbeat and his saturation level. Beside in the case when the heartbeat or saturation level are higher or lower than the normal
+recommended, the user will be notified. He should be able to see all these data in web platform.
 
-bla bla bla bla bla bla bla bla blabla bla blabla bla blabla bla bla  bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla
+To build this project we used two software, which are:
+➢ Arduino IDE : It is a platform to written and compile Arduino sketch that is similar to C and C++. It is used to upload code into a Arduino card.
+➢ Node Red : It is a flow-based software used in IOT to connect hardware to an API.
+With the help of Arduino IDE, we write a program to measure our heartbeat and saturation level and monitor it though a serial monitor. We then used Node Red to display the output in the web platform.
+Node-RED is a flow-based development tool for visual programming developed by IBM. It’s used in IoT to connect a hardware to an API. Hence, we produced a dashboard for our Heartbeat and Saturation level.
 
-[Team Report](doc/report.pdf) 
+[Team Report](doc/Rapport Projet Final IOT.pdf) 
 
-[Team Presentation](doc/presentation.pdf)
+[Team Presentation](doc/Health care.pdf)
 
 # Working Video
 
- [![Example Video of the porject](https://img.youtube.com/vi/ucZl6vQ_8Uo/0.jpg)](https://www.youtube.com/watch?v=ucZl6vQ_8Uo)
+ https://youtu.be/0G3bv7ShKwM
 
 # Components
-- 1 x Arduino Uno
-- 1 x BMP 280
-- 1 x Breadboard
-- 
-- 
+➢ Arduino UNO
+➢ Max 30100
+➢ 1 Blue LED
+➢ 1 Red LED
+➢ 2 10 KOhm Resistance
+➢ 10 Wires
+➢ 1 Breadboard
+➢ 1 Cable USB UNO R3
+
 # Schematic
 ![schema](doc/photo.png?raw=true)
 
