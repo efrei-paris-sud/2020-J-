@@ -1,7 +1,7 @@
 
 # Project Title:
 Please use a gif format for the cover photo like this: (you can create gif using https://ezgif.com/maker)
-![Cover GIF](doc/Arduino_LED.gif?raw=true)
+![Cover GIF](doc/heartbeat.gif?raw=true)
 
 **Description:**  Please don't forget to describe all parts of your project including 
  - [x] **reading from sensors** 
