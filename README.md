@@ -13,7 +13,7 @@ Members:
 
 Example Video of the porject:
 
-[![Example Video of the porject](https://img.youtube.com/vi/ucZl6vQ_8Uo/0.jpg)](https://www.youtube.com/watch?v=ucZl6vQ_8Uo)
+https://youtu.be/0G3bv7ShKwM
 
 Please don't forget to update the github repository information too. 
 ![Change Description of github repository](assets/change_description.png?raw=true)
