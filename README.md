@@ -4,7 +4,7 @@ Members:
 |--|--|
 |  [Marie-Estelle GOUNALANE](https://github.com/Nixia21 ) <br> Digital Transformation & Cloud Services <br> Founder Team GO| [Indrajit RAJASOORIAR](https://github.com/Indrajit0504) <br> Digital Transformation & Cloud Services <br> Co-Founder Team GO |
 
-(assets/logo.png?raw=true)
+(assets/Logo.png?raw=true)
 
 
 
