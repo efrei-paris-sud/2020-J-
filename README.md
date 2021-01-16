@@ -6,7 +6,7 @@ Members:
 
 
 
-# Project Title: Heart Rate  
+# Project Title: Monitoring heartbeat and satuaration level
  **Description**: The aim of this project is to monitor the heart rate. If the heart rate is higher than usual the user will get a notification.
  
 [Click here for more information about the project](project) 
