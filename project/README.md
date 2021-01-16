@@ -45,7 +45,23 @@ Node-RED is a flow-based development tool for visual programming developed by IB
 # Overview on the code
 Please provide a high level algorithm of your code. if you need to mention some part of the code you can do it like:
 ```Arduino
-	Serial.println('bla bla'); // This line is used to print sth in the serial port
+		Serial.println("Beat!"); // This line is used to print if a beat is detected
 ``` 
 
-
+```Arduino
+		Serial.println("Beat!"); // This line is used to print if a beat is detected
+``` 
+```Arduino
+		
+    Serial.print("Initializing pulse oximeter..");
+ 
+    // Initialize the PulseOximeter instance
+    // Failures are generally due to an improper I2C wiring, missing power supply
+    // or wrong target chip
+    if (!pox.begin()) {
+        Serial.println("FAILED");         // This part of code is used to check if the connexion is estabilshed  between the sensor Max30100 and the platform
+        for(;;);
+    } else {
+        Serial.println("SUCCESS");
+    }
+``` 
