@@ -37,7 +37,7 @@ Node-RED is a flow-based development tool for visual programming developed by IB
  https://youtu.be/0G3bv7ShKwM
 
 # Schematic
-![schema](doc/photo.png?raw=true)
+![schema](doc/Schema.png?raw=true)
 
 # Documents
 **Report PDF** (doc/Rapport Projet Final IOT.pdf) 
