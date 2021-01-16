@@ -1,4 +1,4 @@
-# Team Name: TEAM GO
+# Team Name: Team GO
 Members: 
 |![member1](assets/member1.webp?raw=true) |![member2](assets/member2.webp?raw=true)  |
 |--|--|
