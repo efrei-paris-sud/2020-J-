@@ -8,7 +8,7 @@ We wanted to create a real time heartbeat and saturation measurement device. It 
  
 Here is a use case diagram of the functionality of our project:
 
-![UML](doc/heartbeat.gif?raw=true)
+![UML](doc/iot project Use Case diagram.png?raw=true)
  
  To use this prototype the user should first scan his finger so the device can get his rate heartrate and saturation level. Once the user scanned his finger, he should be able to know his heartbeat and his saturation level. Beside in the case when the heartbeat or saturation level are higher or lower than the normal
 recommended, the user will be notified. He should be able to see all these data in web platform.
