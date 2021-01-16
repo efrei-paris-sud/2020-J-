@@ -9,15 +9,12 @@ Members:
  
 ![Logo PNG](assets/Logo.png?raw=true)
 
- 
 [Click here for more information about the project](project) 
 
 Example Video of the project:
 
 https://youtu.be/0G3bv7ShKwM
 
-Please don't forget to update the github repository information too. 
-![Change Description of github repository](assets/change_description.png?raw=true)
 
 # Lab Reports
 
