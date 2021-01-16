@@ -47,12 +47,6 @@ Please provide a high level algorithm of your code. if you need to mention some 
 ```Arduino
 		Serial.println("Beat!"); // This line is used to print if a beat is detected
 ``` 
-
-```Arduino
-		if (pox.getHeartRate() > 110){
-          digitalWrite(redPin, HIGH);
-          Serial.print(" Heartbeat is too high! ");
-``` 
 ```Arduino
 		
     Serial.print("Initializing pulse oximeter..");
