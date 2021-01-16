@@ -30,14 +30,14 @@ Node-RED is a flow-based development tool for visual programming developed by IB
  https://youtu.be/0G3bv7ShKwM
 
 # Components
-➢ Arduino UNO
-➢ Max 30100
-➢ 1 Blue LED
-➢ 1 Red LED
-➢ 2 10 KOhm Resistance
-➢ 10 Wires
-➢ 1 Breadboard
-➢ 1 Cable USB UNO R3
+- Arduino UNO
+- Max 30100
+- 1 Blue LED
+- 1 Red LED
+- 2 10 KOhm Resistance
+- 10 Wires
+- 1 Breadboard
+- 1 Cable USB UNO R3
 
 # Schematic
 ![schema](doc/photo.png?raw=true)
